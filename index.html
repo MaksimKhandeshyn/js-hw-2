@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Js-HW-2</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="slider">
+      <div class="container">
+        <button type="button" id="btn__previouse">Previouse</button>
+        <ul class="slider__list">
+          <li class="slider-list__item visible hidden" id="first-el">
+            <img
+              src="https://cdn.pixabay.com/photo/2025/02/02/17/46/man-9377284_640.jpg"
+              class="slider__image"
+              id="f-child"
+            />
+          </li>
+          <li class="slider-list__item">
+            <img
+              src="https://cdn.pixabay.com/photo/2025/04/13/21/14/woman-9532283_640.jpg"
+              class="slider__image"
+              id="s-child"
+            />
+          </li>
+          <li class="slider-list__item">
+            <img
+              src="https://cdn.pixabay.com/photo/2025/04/22/15/39/coffee-machine-9550534_1280.jpg"
+              class="slider__image"
+              id="th-child"
+            />
+          </li>
+        </ul>
+
+        <button type="button" id="btn__next">Next</button>
+      </div>
+    </div>
+
+    <div id="box"></div>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script type="module" src="./js/index.js"></script>
+  </body>
+</html>
